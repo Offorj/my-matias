@@ -16,7 +16,7 @@
             </div>
             <nav class="nav">
                 <ul class="nav-menu">
-                    <li><a href="matais.html">HOME</a></li>
+                    <li><a href="index.html">HOME</a></li>
                     <li><a href="#about">ABOUT</a></li>
                     <li><a href="#work">WORK</a></li>
                     <li class="dropdown">
@@ -39,27 +39,53 @@
                     <li><a href="#">CONTACT</a></li>
                 </ul>
             </nav>
-
+<!-- first hambuger bar -->
          <div class="box">
-            <button class="btn"><a href="#">Let's Talk <span class="fa fa-long-arrow-right"></span></a></button>
+            <button class="btn"><a href="#">Let's Talk &RightArrow;</a></button>
             <div class="hambuger">
                 <span class="bar"></span>
                 <span class="bar"></span>
                 <span class="bar"></span>
             </div>
+<!-- Second side nav bar -->
+<div id="Sidebar2" class="sidebar2">
+    <div id="exit"><a href="javascript:void(0)" id="exitbtn" onclick="exitNav()">&times;</a></div>
 
-            <div class="hambuger2">
-                <span class="bar2"></span>
-                <span class="bar2"></span>
-                <span class="bar2"></span>
+    <div><img style="background-color: black;" src="images/logo.png" alt="logo_photo"></div>
 
-         </div>
+    <p id="pff">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, dolorum itaque. Quibusdam cumque amet porro hic repellat, magni ad, eos, voluptatem rerum omnis quod.</p>
+
+    <div class="AD">
+    <h3>ADDRESS</h3>
+    <p>Victoria Street London</p>
+    </div>
+    <div  class="info">
+    <h3>EMAIL</h3>
+    <p>Mattias@gmail.com</p>
+    </div>
+    <div  class="info">
+    <h3>CALL NOW</h3>
+    <p>+98 4758 2154 021</p>
+    </div>
+    <div class="nav-socials">
+        <div ><a href="https://facebook.com"><i class="fa fa-facebook-f"></i></a></div>
+        <div id="adjust"><a href="https://twitter.com"><i class="fa fa-twitter"></i></a></div>
+        <div><a href="https://youtube.com"><i class="fa fa-youtube-play"></i></a></div>
+        <div><a href="https://linkedin.com"><i class="fa fa-linkedin-square"></i></a></div>
+    </div>
+
+    <button  id="sideBtn">> Let's Talk</button>
+</div>
+  <button class="reveal"  onclick="openNav()"><i class="fa fa-bars fa-2x"  id="last-bars"></i></button>
+         
            
             </div> 
         </section>
+
+        <!-- first hambuger propertise -->
         <div class="hambuger-drop">
             <ul class="hambuger-drop-list">
-                <li><a href="matais.html"> HOME <hr class="light"></a></li>
+                <li><a href="index.html"> HOME <hr class="light"></a></li>
                 <li><a href="#about" >ABOUT <hr class="light"></a></li>
                 <li><a href="#work" >WORK <hr class="light"></a></li>
                 <li><a href="#service" >SERVICES <hr class="light"></a></li>
@@ -68,7 +94,11 @@
                 <li><a href="#" >CONTACT <hr class="light"></a></li>
             </ul> 
         </div>
+        <!-- End of first hambuger -->
+        <!-- End of navigation bar -->
         
+
+        <!-- first page -->
         <section class="background">
             <div class="dial">
                 <img src="images/dial.png" alt="">
@@ -110,15 +140,15 @@
             <img src="images/scroll-down.png" alt="">
           </div>
           <div class="font-awe">
-            <span class="fa fa-facebook" style="color: white; background-color: rgb(26, 25, 25); padding: 15px 18px; border-radius: 50%;"></span>
+            <a href="#"><span class="fa fa-facebook" style="color: white; background-color: rgb(26, 25, 25); padding: 15px 18px; border-radius: 50%;"></span></a>
             <br>
-            <span class="fa fa-twitter" style="color: white; background-color: rgb(26, 25, 25); padding: 15px 15px; border-radius: 50%;"></span>
+            <a href="#"><span class="fa fa-twitter" style="color: white; background-color: rgb(26, 25, 25); padding: 15px 15px; border-radius: 50%;"></span></a>
             <br>
-            <span class="fa fa-youtube" style="color: white; background-color: rgb(26, 25, 25); padding: 15px 15px; border-radius: 50%;"></span>
+            <a href="#"><span class="fa fa-youtube" style="color: white; background-color: rgb(26, 25, 25); padding: 15px 15px; border-radius: 50%;"></span></a>
             <br>
-            <span class="fa fa-linkedin" style="color: white; background-color: rgb(26, 25, 25); padding: 15px 15px; border-radius: 50%;"></span>
+            <a href="#"><span class="fa fa-linkedin" style="color: white; background-color: rgb(26, 25, 25); padding: 15px 15px; border-radius: 50%;"></span></a>
             <br>
-            <span class="fa fa-instagram" style="color: white; background-color: rgb(26, 25, 25); padding: 15px 15px; border-radius: 50%;"></span>
+            <a href="#"><span class="fa fa-instagram" style="color: white; background-color: rgb(26, 25, 25); padding: 15px 15px; border-radius: 50%;"></span></a>
           </div>
               
           <div class="box2">
@@ -205,7 +235,7 @@
             <tr>
                <th class="our">Our Awards</th>
                <th></th>
-               <th class="view">View My Work <span class="fa fa-long-arrow-right"></span></th>
+               <th class="view">View My Work  &RightArrow;</th>
             </tr>
             <tr>
                <td>Site Of The Day</td>
@@ -277,11 +307,13 @@
         </div>
        </div>
 
-
-       <div class="circle">
-        <span class="fa fa-long-arrow-right"></span>
-        <p>Click More Work</p>
-       </div>
+       <section class="circle-me">
+        <div class="circle">
+            <span>&RightArrow;</span>
+           <span> Click More work</span>
+        </div>
+    </section>
+      
 
 
   
@@ -463,6 +495,10 @@
     <img src="images/man3.png" alt="">
 </div>
 </div>
+    </section>
+
+    <section class="">
+
     </section>
         <script src="index.js"></script>
     </div>
